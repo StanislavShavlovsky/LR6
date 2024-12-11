@@ -1,0 +1,6 @@
+/home/stasname/Документы/ОАиП/LR6/Task_3/build/CMakeFiles/SymmetricCheck.dir
+/home/stasname/Документы/ОАиП/LR6/Task_3/build/CMakeFiles/SymmetricCheckTests.dir
+/home/stasname/Документы/ОАиП/LR6/Task_3/build/CMakeFiles/lint_test.dir
+/home/stasname/Документы/ОАиП/LR6/Task_3/build/CMakeFiles/test.dir
+/home/stasname/Документы/ОАиП/LR6/Task_3/build/CMakeFiles/edit_cache.dir
+/home/stasname/Документы/ОАиП/LR6/Task_3/build/CMakeFiles/rebuild_cache.dir
