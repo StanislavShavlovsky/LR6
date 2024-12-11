@@ -1,0 +1,5 @@
+/home/stasname/Документы/ОАиП/LR6/Task_1/build/CMakeFiles/LR6.dir
+/home/stasname/Документы/ОАиП/LR6/Task_1/build/CMakeFiles/LR6Tests.dir
+/home/stasname/Документы/ОАиП/LR6/Task_1/build/CMakeFiles/test.dir
+/home/stasname/Документы/ОАиП/LR6/Task_1/build/CMakeFiles/edit_cache.dir
+/home/stasname/Документы/ОАиП/LR6/Task_1/build/CMakeFiles/rebuild_cache.dir

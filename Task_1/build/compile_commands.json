@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_1/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++11 -o CMakeFiles/LR6.dir/main.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_1/main.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_1/main.cpp",
+  "output": "CMakeFiles/LR6.dir/main.cpp.o"
+},
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_1/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++11 -o CMakeFiles/LR6.dir/numbers.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_1/numbers.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_1/numbers.cpp",
+  "output": "CMakeFiles/LR6.dir/numbers.cpp.o"
+},
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_1/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/LR6Tests.dir/test_numbers.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_1/test_numbers.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_1/test_numbers.cpp",
+  "output": "CMakeFiles/LR6Tests.dir/test_numbers.cpp.o"
+},
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_1/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/LR6Tests.dir/numbers.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_1/numbers.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_1/numbers.cpp",
+  "output": "CMakeFiles/LR6Tests.dir/numbers.cpp.o"
+}
+]

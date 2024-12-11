@@ -1,0 +1,91 @@
+Start testing: Nov 29 02:12 +03
+----------------------------------------------------------
+1/1 Testing: LR6Tests
+1/1 Test: LR6Tests
+Command: "/home/stasname/Документы/ОАиП/LR6/Task_1/build/LR6Tests"
+Directory: /home/stasname/Документы/ОАиП/LR6/Task_1/build
+"LR6Tests" start time: Nov 29 02:12 +03
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from ReadInputTest
+[ RUN      ] ReadInputTest.BasicInput
+/home/stasname/Документы/ОАиП/LR6/Task_1/test_numbers.cpp:12: Failure
+Expected equality of these values:
+  buffer
+    Which is: "xx\n"
+  "1.1 2.2 3.3\n"
+
+[  FAILED  ] ReadInputTest.BasicInput (15372 ms)
+[ RUN      ] ReadInputTest.EmptyInput
+/home/stasname/Документы/ОАиП/LR6/Task_1/test_numbers.cpp:20: Failure
+Expected: read_input(buffer, MAX_LENGTH) throws an exception of type std::runtime_error.
+  Actual: it throws nothing.
+
+[  FAILED  ] ReadInputTest.EmptyInput (1934 ms)
+[----------] 2 tests from ReadInputTest (17307 ms total)
+
+[----------] 3 tests from ProcessNumbersTest
+[ RUN      ] ProcessNumbersTest.BasicInput
+[       OK ] ProcessNumbersTest.BasicInput (0 ms)
+[ RUN      ] ProcessNumbersTest.InvalidInput
+Предупреждение: "abc" не является числом и будет игнорировано.
+[       OK ] ProcessNumbersTest.InvalidInput (0 ms)
+[ RUN      ] ProcessNumbersTest.OnlySpacesInput
+[       OK ] ProcessNumbersTest.OnlySpacesInput (0 ms)
+[----------] 3 tests from ProcessNumbersTest (0 ms total)
+
+[----------] 2 tests from BubbleSortTest
+[ RUN      ] BubbleSortTest.BasicSort
+[       OK ] BubbleSortTest.BasicSort (0 ms)
+[ RUN      ] BubbleSortTest.AlreadySorted
+[       OK ] BubbleSortTest.AlreadySorted (0 ms)
+[----------] 2 tests from BubbleSortTest (0 ms total)
+
+[----------] 2 tests from PrintNumbersTest
+[ RUN      ] PrintNumbersTest.BasicPrint
+[       OK ] PrintNumbersTest.BasicPrint (0 ms)
+[ RUN      ] PrintNumbersTest.EmptyPrint
+[       OK ] PrintNumbersTest.EmptyPrint (0 ms)
+[----------] 2 tests from PrintNumbersTest (0 ms total)
+
+[----------] 2 tests from EdgeCasesTest
+[ RUN      ] EdgeCasesTest.EmptyInput
+[       OK ] EdgeCasesTest.EmptyInput (0 ms)
+[ RUN      ] EdgeCasesTest.LargeNumbers
+/home/stasname/Документы/ОАиП/LR6/Task_1/test_numbers.cpp:110: Failure
+Expected equality of these values:
+  numbers[0]
+    Which is: 1e+308
+  1e307
+    Which is: 9.9999999999999999e+306
+
+/home/stasname/Документы/ОАиП/LR6/Task_1/test_numbers.cpp:111: Failure
+Expected equality of these values:
+  numbers[1]
+    Which is: 9.9999999999999999e+306
+  1e308
+    Which is: 1e+308
+
+[  FAILED  ] EdgeCasesTest.LargeNumbers (0 ms)
+[----------] 2 tests from EdgeCasesTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 5 test suites ran. (17309 ms total)
+[  PASSED  ] 8 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] ReadInputTest.BasicInput
+[  FAILED  ] ReadInputTest.EmptyInput
+[  FAILED  ] EdgeCasesTest.LargeNumbers
+
+ 3 FAILED TESTS
+<end of output>
+Test time =  17.32 sec
+----------------------------------------------------------
+Test Failed.
+"LR6Tests" end time: Nov 29 02:12 +03
+"LR6Tests" time elapsed: 00:00:17
+----------------------------------------------------------
+
+End testing: Nov 29 02:12 +03
