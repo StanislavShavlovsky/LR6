@@ -1,5 +1,5 @@
 #pragma once
-#include <cstddef> // Добавляем это включение для использования size_t
+#include <cstddef> 
 #include <string>
 
 const int MAX_LENGTH = 81;
