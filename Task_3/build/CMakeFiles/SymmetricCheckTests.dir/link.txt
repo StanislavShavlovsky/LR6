@@ -1,0 +1,1 @@
+/usr/bin/g++  -fsanitize=address -g  -fsanitize=address CMakeFiles/SymmetricCheckTests.dir/test_symmetric_check.cpp.o CMakeFiles/SymmetricCheckTests.dir/symmetric_check.cpp.o -o SymmetricCheckTests  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 

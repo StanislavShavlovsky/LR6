@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_3/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++17 -o CMakeFiles/SymmetricCheck.dir/main.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_3/main.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_3/main.cpp",
+  "output": "CMakeFiles/SymmetricCheck.dir/main.cpp.o"
+},
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_3/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++17 -o CMakeFiles/SymmetricCheck.dir/symmetric_check.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_3/symmetric_check.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_3/symmetric_check.cpp",
+  "output": "CMakeFiles/SymmetricCheck.dir/symmetric_check.cpp.o"
+},
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_3/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++17 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/SymmetricCheckTests.dir/test_symmetric_check.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_3/test_symmetric_check.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_3/test_symmetric_check.cpp",
+  "output": "CMakeFiles/SymmetricCheckTests.dir/test_symmetric_check.cpp.o"
+},
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_3/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++17 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/SymmetricCheckTests.dir/symmetric_check.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_3/symmetric_check.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_3/symmetric_check.cpp",
+  "output": "CMakeFiles/SymmetricCheckTests.dir/symmetric_check.cpp.o"
+}
+]
