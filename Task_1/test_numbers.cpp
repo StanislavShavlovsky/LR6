@@ -1,7 +1,7 @@
 #include "numbers.h"
 #include <gtest/gtest.h>
 #include <sstream>
-#include <cstring> // Добавляем это включение для strlen
+#include <cstring> 
 
 // Тесты для функции read_input
 TEST(ReadInputTest, BasicInput) {
