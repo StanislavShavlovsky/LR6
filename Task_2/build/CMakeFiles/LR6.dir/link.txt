@@ -1,1 +1,0 @@
-/usr/bin/c++  -fsanitize=address  -fsanitize=address CMakeFiles/LR6.dir/main.cpp.o CMakeFiles/LR6.dir/vowel_count.cpp.o -o LR6 
