@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_2/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++11 -o CMakeFiles/LR6.dir/main.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_2/main.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_2/main.cpp",
+  "output": "CMakeFiles/LR6.dir/main.cpp.o"
+},
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_2/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++11 -o CMakeFiles/LR6.dir/vowel_count.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_2/vowel_count.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_2/vowel_count.cpp",
+  "output": "CMakeFiles/LR6.dir/vowel_count.cpp.o"
+},
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_2/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/LR6Tests.dir/test_vowel_count.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_2/test_vowel_count.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_2/test_vowel_count.cpp",
+  "output": "CMakeFiles/LR6Tests.dir/test_vowel_count.cpp.o"
+},
+{
+  "directory": "/home/stasname/Документы/ОАиП/LR6/Task_2/build",
+  "command": "/usr/bin/g++    -fsanitize=address -g -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/LR6Tests.dir/vowel_count.cpp.o -c /home/stasname/Документы/ОАиП/LR6/Task_2/vowel_count.cpp",
+  "file": "/home/stasname/Документы/ОАиП/LR6/Task_2/vowel_count.cpp",
+  "output": "CMakeFiles/LR6Tests.dir/vowel_count.cpp.o"
+}
+]
